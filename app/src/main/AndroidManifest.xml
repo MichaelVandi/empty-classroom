@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="3"
+    android:versionName="1.2"
+    package="mike.emptyclassroom">
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/empyt_class"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".chooseDay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Monday"
+            android:label="MONDAY" />
+        <activity android:name=".ItemLayout" />
+        <activity
+            android:name=".Tuesday"
+            android:label="TUESDAY" />
+        <activity
+            android:name=".Wednesday"
+            android:label="WEDNESDAY" />
+        <activity
+            android:name=".Thursday"
+            android:label="THURSDAY" />
+        <activity
+            android:name=".Friday"
+            android:label="FRIDAY" />
+        <activity android:name=".realtimeUpdates"
+            android:label="Real-Time Updates">
+        </activity>
+    </application>
+
+</manifest>

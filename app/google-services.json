@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1043659364618",
+    "firebase_url": "https://emptyclassroom-339bf.firebaseio.com",
+    "project_id": "emptyclassroom-339bf",
+    "storage_bucket": "emptyclassroom-339bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043659364618:android:6b05115317444282",
+        "android_client_info": {
+          "package_name": "mike.emptyclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043659364618-cs7amsl2prtvm2e4lhj9cdakmepoa7oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhmfhcaLjj8X43Caan1utBEQXHM3RuFTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

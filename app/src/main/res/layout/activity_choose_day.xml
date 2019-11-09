@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="mike.emptyclassroom.chooseDay">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listChooseDay"
+                android:layout_width="match_parent"
+                android:layout_height="514dp"
+                android:background="@android:color/black"
+                android:divider="@android:color/white"
+                android:dividerHeight="0.3dp">
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer" />
+
+</RelativeLayout>
